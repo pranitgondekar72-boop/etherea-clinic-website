@@ -728,25 +728,33 @@ ul {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    width: 60px;
-    height: 60px;
+    height: 56px;
+    padding: 0 1.25rem;
     background-color: #25D366;
     color: white;
-    border-radius: 50%;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    gap: 0.5rem;
+    font-size: 1.5rem;
     box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
     z-index: 999;
     transition: var(--transition);
     animation: whatsappPulse 2s infinite;
 }
 
+.whatsapp-label {
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
 .whatsapp-float:hover {
     background-color: #1da851;
     color: white;
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5);
     animation: none;
 }
